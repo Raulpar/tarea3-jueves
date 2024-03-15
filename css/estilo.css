@@ -1,0 +1,100 @@
+body
+{
+    background-color: rgb(238, 138, 8);
+}
+.padre{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.hijo1,.hijo2,.hijo3
+{
+    background-color: fuchsia;
+    padding: 10px;
+    margin: 0px;
+
+}
+.hijo4
+{
+    background-color: rgb(83, 28, 83);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 400px;
+}
+.hijo5
+{
+    background-color: rgb(8, 69, 57);
+    padding-left: 10px;
+    margin: 0px;
+
+}
+.hijo6
+{
+    background-color: rgb(31, 179, 149);
+    padding-left: 100px;
+    margin: 0px;
+}
+.hijo7
+{
+    background-color: rgb(102, 81, 166);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 200px;
+}
+.hijo8
+{
+    background-color: rgb(27, 155, 57);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 500px;
+}
+.hijo9
+{
+    background-color: rgb(27, 155, 57);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 100px;
+}
+.hijo10
+{
+    background-color: rgb(39, 57, 79);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 800px;
+}
+.hijo11
+{
+    background-color: rgb(89, 8, 105);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 100px;
+}
+.hijo12
+{
+    background-color: rgb(89, 8, 105);
+    padding: 10px;
+    margin: 0px;
+    padding-left: 100px;
+}
+.mb-3
+{
+  display:flex;
+  flex-wrap:nowrap;
+}
+.nom
+{
+    margin-left: 50px;
+    display:block;
+}
+.email
+{
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.edad
+{
+    margin-left: 200px;
+    display: block;
+}
